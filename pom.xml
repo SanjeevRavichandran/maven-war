@@ -20,9 +20,8 @@
   </properties>
   <distributionManagement>  
 	  <snapshotRepository>
-		  <id>nexus</id>
-		  <name>Local_snapshot</name>
-		  <url>http://localhost:8081/repository/Local_snapshot/</url>
+		  <id>Local-snapshot-repo</id>
+		  <url>http://localhost:8081/repository/Local-snapshot-repo/</url>
 	 </snapshotRepository>
  </distributionManagement>
 
