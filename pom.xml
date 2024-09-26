@@ -19,10 +19,11 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
   <distributionManagement>  
-	<snapshotRepository>
-		<id>Local_snapshot</id>
-		<url>http://localhost:8081/repository/Local_snapshot/</url>
-	</snapshotRepository>	
+	  <snapshotRepository>
+		  <id>nexus</id>
+		  <name>Local_snapshot</name>
+		  <url>http://localhost:8081/repository/Local_snapshot/</url>
+	 </snapshotRepository>
  </distributionManagement>
 
   <dependencies>
